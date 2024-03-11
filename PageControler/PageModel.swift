@@ -17,8 +17,8 @@ struct Page: Identifiable , Equatable{
     
     static var samplePage =  Page(title: "Sample Title", description: "Sample Description", image: "images", tag: 0)
     static var samplePages: [Page] = [
-        Page(title: "Title1", description: "Description1", image: "Onboarding1", tag: 0),
-        Page(title: "Title2", description: "Description2", image: "Onboarding2", tag: 1),
-        Page(title: "Title3", description: "Description3", image: "Onboarding3", tag: 2)
+        Page(title: "Enter1", description: "Description1", image: "Onboarding1", tag: 0),
+        Page(title: "Enter2", description: "Description2", image: "Onboarding2", tag: 1),
+        Page(title: "Enter3", description: "Description3", image: "Onboarding3", tag: 2)
     ]
 }
